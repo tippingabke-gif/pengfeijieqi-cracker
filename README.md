@@ -15,7 +15,7 @@
 
 ## 界面
 
-![鹏飞揭棋主界面](docs/screenshots/board.png)
+![鹏飞揭棋主界面](docs/screenshots/board.png?v=1.2.0-clean)
 
 以上是已有的真实主界面运行截图，用于展示界面；本次连线验收依据单独记录在验证文档中。
 
