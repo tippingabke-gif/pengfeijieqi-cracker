@@ -15,7 +15,7 @@
 
 ## 界面
 
-![鹏飞揭棋主界面](docs/screenshots/board.png?v=1.2.0-clean)
+![鹏飞揭棋主界面](https://raw.githubusercontent.com/tippingabke-gif/pengfeijieqi-cracker/377c07ab3b191d91277a3c71d6f20d10bf65fc00/docs/screenshots/board.png)
 
 以上是已有的真实主界面运行截图，用于展示界面；本次连线验收依据单独记录在验证文档中。
 
