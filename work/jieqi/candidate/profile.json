@@ -1,0 +1,41 @@
+{
+  "target_sha256": "c01a7997ae5870f5b8dcbbb437b18544ea71f79c38e2d69cceeb1663db19d8ba",
+  "version": "5.9.1.0-jieqi",
+  "image_size": 157577216,
+  "patches": [
+    {
+      "name": "registered getter",
+      "rva": "0xb78bd0",
+      "before": "5756534883ec20",
+      "after": "b801000000c390"
+    },
+    {
+      "name": "suppress background auth thread",
+      "rva": "0xb34f60",
+      "before": "554157415641554154",
+      "after": "31c0c3909090909090"
+    },
+    {
+      "name": "accept local engine bridge signature state",
+      "rva": "0xca8bbc",
+      "before": "e89fadffff",
+      "after": "b801000000"
+    }
+  ],
+  "main_background_auth": {
+    "rva": "0x1d29f0",
+    "before_prefix": "555657534881ec38010000488dac248000000048c785a8000000feffffff8b4118",
+    "patch_kind": "tail_jump_sleep_infinite",
+    "patch_size": 17,
+    "ready_event": "main_background_auth_suspended"
+  },
+  "native_auth": {
+    "rva": "0x88f10",
+    "before_prefix": "555657534881ecb8000000488dac248000000048c74530feffffff4889d64889",
+    "allocator_rva": "0x52a0",
+    "allocator_before": "e92ba40500",
+    "auth_payload": "{\"ClientCheckInfoItemList\":[]}",
+    "error_payload": "",
+    "ready_event": "local_auth_replacement_ready"
+  }
+}

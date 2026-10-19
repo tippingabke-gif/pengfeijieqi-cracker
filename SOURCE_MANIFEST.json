@@ -1,0 +1,187 @@
+[
+  {
+    "path": "work/jieqi/candidate/launcher.py",
+    "size": 10656,
+    "sha256": "488f0a35c6beee0fb286913cd0db0022fbb62a81eb7e6c88326da7ace25c5bf1"
+  },
+  {
+    "path": "work/jieqi/candidate/launcher.spec",
+    "size": 827,
+    "sha256": "a75283663f0dbdf2fa5da38eff995b46ceba99fd86484aae26aefd500a3420a0"
+  },
+  {
+    "path": "work/jieqi/candidate/runtime.py",
+    "size": 24168,
+    "sha256": "a57a03eb70842ad1d140a60b571e3ad647036b07917bb06d1072c4c1d158056e"
+  },
+  {
+    "path": "work/jieqi/candidate/engine_config_migration.py",
+    "size": 13296,
+    "sha256": "ffdefea1a879936dfa17e778d01b15db93d927aebf15d154ba8ecfeb85534398"
+  },
+  {
+    "path": "work/jieqi/candidate/profile.json",
+    "size": 1265,
+    "sha256": "371a2d43f1024d98bcc3cedb35376fc735a541482a3fc60777ed3c3520cea2e7"
+  },
+  {
+    "path": "work/jieqi/candidate/version.txt",
+    "size": 634,
+    "sha256": "b710b27149c79e385877fac30f24882e75b8a77a52cfbb04c5c51e3d82fa6349"
+  },
+  {
+    "path": "work/jieqi/candidate/requirements.txt",
+    "size": 29,
+    "sha256": "4e6d291fa7291576b830ef2d10f23344c62521cd8e112546483370d0f6b9418c"
+  },
+  {
+    "path": "work/jieqi/candidate/requirements-build.txt",
+    "size": 40,
+    "sha256": "0034505000aac956e6f095380f6185f33810103e5ec63f09e4602bf50b6bc731"
+  },
+  {
+    "path": "work/jieqi/candidate/wfp_isolation.py",
+    "size": 3881,
+    "sha256": "d37ab1c4c09534cb42bea224bd2ce2562f6d91818cc4b0be9576bbc0bdba5ea7"
+  },
+  {
+    "path": "work/jieqi/candidate/test_launcher.py",
+    "size": 3457,
+    "sha256": "fc83b498ddcd7e5320cb1aac9cfe1cda22cca9e91cc9123ec460b73653ec3186"
+  },
+  {
+    "path": "work/jieqi/candidate/LICENSE",
+    "size": 1077,
+    "sha256": "5ca2920d4f56954100c8f365461aba7b6c6154da49734f7b2703d9275ad49d11"
+  },
+  {
+    "path": "work/jieqi/candidate/THIRD_PARTY_NOTICES.md",
+    "size": 1751,
+    "sha256": "9a54d2a5f45d8aa2a35cb1335d5f9b2ec2863885e625dbac79f3acb697e6e24b"
+  },
+  {
+    "path": "work/jieqi/candidate/scripts/repair.js",
+    "size": 20544,
+    "sha256": "0e479bdde736c33fcf841f1690116c7e24439aa641d1de217e2f3f9a44eed8dd"
+  },
+  {
+    "path": "work/jieqi/candidate/licenses/altgraph-LICENSE",
+    "size": 1002,
+    "sha256": "6c194d6db0c64d45535d10c95142b9b0cda7b7dcc7f1ddee302b3d536f3dbe46"
+  },
+  {
+    "path": "work/jieqi/candidate/licenses/frida-licenses-COPYING",
+    "size": 2466,
+    "sha256": "803b8b5aa4151030221b3c3f71a645da6241938421e49901444a79e5cca75fa8"
+  },
+  {
+    "path": "work/jieqi/candidate/licenses/packaging-licenses-LICENSE",
+    "size": 197,
+    "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+  },
+  {
+    "path": "work/jieqi/candidate/licenses/packaging-licenses-LICENSE.APACHE",
+    "size": 10174,
+    "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+  },
+  {
+    "path": "work/jieqi/candidate/licenses/packaging-licenses-LICENSE.BSD",
+    "size": 1344,
+    "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+  },
+  {
+    "path": "work/jieqi/candidate/licenses/pefile-LICENSE",
+    "size": 1083,
+    "sha256": "b44409c067c6da52bfb54bb6624fb11a7b52157c3a13ae1400232f8196e86ad3"
+  },
+  {
+    "path": "work/jieqi/candidate/licenses/psutil-LICENSE",
+    "size": 1577,
+    "sha256": "c7adc4d5d1337a548b967421f1fbe258b93033a0417708fd6f4e38f8ecbceb80"
+  },
+  {
+    "path": "work/jieqi/candidate/licenses/pyinstaller-hooks-contrib-licenses-LICENSE",
+    "size": 27666,
+    "sha256": "91d0baaff00773038e72c0a1fc9d5d2d38706b7a2b9c04f34296608f931b9cd0"
+  },
+  {
+    "path": "work/jieqi/candidate/licenses/pyinstaller-licenses-COPYING.txt",
+    "size": 32138,
+    "sha256": "dcf75fdb959db1e3b41c0f8505069d2ece781b5ec6b3d0a4d30975cfc6580245"
+  },
+  {
+    "path": "work/jieqi/candidate/licenses/Python-LICENSE.txt",
+    "size": 32768,
+    "sha256": "f2fd8edb3271310fc2af0ffa72886b26094d3e3b5c3bb709269d2ec4b31285a4"
+  },
+  {
+    "path": "work/jieqi/candidate/licenses/pywin32-ctypes-LICENSE.txt",
+    "size": 1644,
+    "sha256": "dfa83b3e2709adfcdb838d9ad55823ca674abb780e60563d9dd9544ccbf785e9"
+  },
+  {
+    "path": "work/jieqi/candidate/licenses/setuptools-LICENSE",
+    "size": 1050,
+    "sha256": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8"
+  },
+  {
+    "path": "work/jieqi/candidate/licenses/Tk-license.terms",
+    "size": 2307,
+    "sha256": "0d1e4405f6273f091732764ed89b57066be63ce64869be6c71ea337dc4f2f9b5"
+  },
+  {
+    "path": "work/jieqi/candidate/licenses/typing-extensions-licenses-LICENSE",
+    "size": 13936,
+    "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf"
+  },
+  {
+    "path": "work/engine_bridge/bridge.py",
+    "size": 24047,
+    "sha256": "5e0ea8b5d94438be84adade8c3a688da875b2190319711c0304e02146c949d98"
+  },
+  {
+    "path": "work/engine_bridge/bridge.spec",
+    "size": 744,
+    "sha256": "2859779feb39ab1fae806ebcfda743e1a5e0e59b2fe304705b48c5e4ffe27fbf"
+  },
+  {
+    "path": "work/engine_bridge/fen_compat.py",
+    "size": 5451,
+    "sha256": "b2c8af1a785f28df417e7f0276876b7929c1a2067ed810ddc10f8d8935239012"
+  },
+  {
+    "path": "work/engine_bridge/test_fen_bridge_replay.py",
+    "size": 5135,
+    "sha256": "01bad7114a2a1ffdd3d81e314389d11087cbf6c86db76c99ebb301bd32427f6c"
+  },
+  {
+    "path": "work/engine_bridge/job_object.py",
+    "size": 6371,
+    "sha256": "d5ef37a272ce57c5c345dc15d48ccf154d1b35283c1f6eea44135a1a422e715a"
+  },
+  {
+    "path": "work/engine_bridge/parent_guard.py",
+    "size": 7082,
+    "sha256": "eceec46176236602f96efb0373da009e288bec4dca3002499c23a8835bf84b64"
+  },
+  {
+    "path": "work/engine_bridge/test_parent_guard_integration.py",
+    "size": 9731,
+    "sha256": "d57bbc635d13e70f6028ab9609c647fd000337d71876be245ffc590152f52ab1"
+  },
+  {
+    "path": "work/engine_runtime/early_patch.py",
+    "size": 9320,
+    "sha256": "982f50d2444295c8a0291be9f35a7b5a54510b0696b31fb9bec167a72bea6dc8"
+  },
+  {
+    "path": "work/engine_reverse/runtime_patch.py",
+    "size": 952,
+    "sha256": "2af1171f37adb5d956e17267b84df4747a1e0825ba13484cafd429d13f572e0a"
+  },
+  {
+    "path": "work/jieqi/wfp_isolation.py",
+    "size": 3818,
+    "sha256": "40156824d4df713fcfb7191fe712f11a03db3c7d05dc20ccef2c785c6048378b"
+  }
+]

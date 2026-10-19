@@ -1,0 +1,129 @@
+{
+  "launcher_version": "1.2.0-jieqi",
+  "bridge_version": "1.2.1",
+  "launcher": {
+    "size": 119463738,
+    "sha256": "b5417cc45becb51f2502647040fa5ba6f4c77818c883cb45302f68c2c7bb0aaf"
+  },
+  "bridge": {
+    "size": 58426481,
+    "sha256": "1656a58ad37ce05efe0ab9373c38995229d0c69a041784916bd6b300e674852e"
+  },
+  "target_main_sha256": "c01a7997ae5870f5b8dcbbb437b18544ea71f79c38e2d69cceeb1663db19d8ba",
+  "target_engine_sha256": "065497ebe421e2337a2c5e83a948964c78e5e99b7058789843ac39d5d77edaea",
+  "frozen_bundle": {
+    "resource_matches": [
+      {
+        "name": "engine_bridge\\PengfeiJieQi-EngineBridge.exe",
+        "size": 58426481,
+        "sha256": "1656a58ad37ce05efe0ab9373c38995229d0c69a041784916bd6b300e674852e"
+      },
+      {
+        "name": "profile.json",
+        "size": 1265,
+        "sha256": "371a2d43f1024d98bcc3cedb35376fc735a541482a3fc60777ed3c3520cea2e7"
+      },
+      {
+        "name": "scripts\\repair.js",
+        "size": 20544,
+        "sha256": "0e479bdde736c33fcf841f1690116c7e24439aa641d1de217e2f3f9a44eed8dd"
+      }
+    ]
+  },
+  "packed_selftest": {
+    "launcher_version": "1.2.0-jieqi",
+    "target_version": "5.9.1.0-jieqi",
+    "stage": "selftest_passed",
+    "error_code": null,
+    "running": false,
+    "script_errors": 0
+  },
+  "launcher_unit_tests": {
+    "passed": true,
+    "count": 7
+  },
+  "integrated_script_syntax_check": {
+    "tool": "node --check",
+    "passed": true
+  },
+  "connection_validation": {
+    "status": "user_confirmed_sync_and_runtime_board_validation_passed",
+    "user_feedback": "已连接，棋盘开始同步",
+    "board_validation": {
+      "sampled_count": 40,
+      "sampled_span_seconds": 100.274,
+      "all_sampled_have_one_king_per_side": true,
+      "dimensions": [
+        [
+          9,
+          10
+        ]
+      ],
+      "occupied_counts": [
+        32
+      ],
+      "distinct_sampled_boards": 4,
+      "king_precheck_counts": [
+        2
+      ]
+    },
+    "repair": {
+      "sampled_records": 62,
+      "original_bit_patterns": {
+        "0xff800000": 62
+      },
+      "original_bits_interpretation": "0xff800000 = IEEE754 binary32 negative infinity; v36 originalKind text was inaccurate",
+      "all_sampled_restored_equal_raw_argmax": true,
+      "guard_rejections": 0,
+      "decision_labels": {
+        "K": 2,
+        "k": 2,
+        "blank": 64,
+        "D": 30,
+        "C": 2,
+        "B": 1
+      },
+      "margin_class_indexes": [
+        17
+      ]
+    },
+    "errors": {
+      "lack_red_king_in_current_app_log": 0,
+      "lack_black_king_in_current_app_log": 0,
+      "target_parent_changed_messages": 1,
+      "null_board_read_errors": 0
+    },
+    "verification_limits": [
+      "Frozen EXE user connection not separately repeated",
+      "Other fixed schemes and long full games not verified",
+      "SendMove observed entering existing application path; remote click success not independently asserted",
+      "Previous v32 fast-fail root cause not attributed solely from the exit code"
+    ]
+  },
+  "integrated_clean_start": {
+    "scope": "Clean process startup of integrated repair script; no connection initiated in this case",
+    "script_sha256": "0e479bdde736c33fcf841f1690116c7e24439aa641d1de217e2f3f9a44eed8dd",
+    "runtime": {
+      "launcher_version": "1.2.0-jieqi",
+      "target_version": "5.9.1.0-jieqi",
+      "stage": "running",
+      "error_code": null,
+      "running": true,
+      "script_errors": 0,
+      "exit_code": null,
+      "main_window_seen": true,
+      "ready_events": [
+        "classifier_score_repair_ready",
+        "fit_input_label_adapter_ready",
+        "fit_vector_seed_ready",
+        "local_auth_replacement_ready",
+        "main_background_auth_suspended"
+      ],
+      "engine_bridge_installed": true,
+      "engine_bridge_ready": true,
+      "engine_ready": true,
+      "engine_state": "ready",
+      "engine_error": null
+    }
+  }
+}
